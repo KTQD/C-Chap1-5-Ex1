@@ -9,6 +9,7 @@ void printWeatherCondition(double f){
 }
 int main(){
     double temperature = 4.2;
+    fahrenheit = centigradeToFahrenheit(temperature);
     //Your Code
     printf("%.1f Centigrade is equivalent to %.1f Fahrenheit\n", temperature, fahrenheit);
     printWeatherCondition(fahrenheit);
